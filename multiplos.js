@@ -9,4 +9,6 @@ function somaDosMultiplos() {
   }
   
   console.log(somaDosMultiplos());
+
+  module.exports = { somaDosMultiplos }
   

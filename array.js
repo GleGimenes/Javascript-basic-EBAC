@@ -21,4 +21,6 @@ function indicesValores(arr) {
   const arr = [5, 8, 1, 3, 2, 9, 4, 7, 6];
   const indices = indicesValores(arr);
   console.log(`Índice do maior valor: ${indices.indiceDoMaior}, Índice do menor valor: ${indices.indiceDoMenor}`);
+
+  module.exports = { indicesValores }
   

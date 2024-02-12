@@ -12,3 +12,4 @@ function mdc(a, b) {
   let num2 = 7;
   console.log(`O MDC de ${num1} e ${num2} é ${mdc(num1, num2)}`);
   
+  module.exports = { mdc }
